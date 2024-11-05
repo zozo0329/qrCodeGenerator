@@ -1,7 +1,7 @@
 body {
   padding: 0px;
   margin: 0px;
-  font-family: sans-serif;
+  font-family: monospace;
   box-sizing: border-box;
   background-color: #000000;
 }
@@ -30,10 +30,10 @@ body {
   border-radius: 10px;
   font-weight: 700;
   font-size: 18px;
-  font-family: sans-serif;
   color: lime;
   background-color: black;
   outline: none;
+  font-family: monospace;
 }
 ::placeholder {
   color: lime;
@@ -58,6 +58,7 @@ body {
   color: lime;
   border-radius: 10px;
   transition: all 0.34s;
+  font-family: monospace;
 }
 .qr-btn button:hover {
   background-color: #141414;
