@@ -3,7 +3,7 @@ body {
   margin: 0px;
   font-family: sans-serif;
   box-sizing: border-box;
-  background-color: #202020;
+  background-color: #000000;
 }
 .container {
   display: flex;
@@ -16,14 +16,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #3b63acbe;
   width: 400px;
   padding: 50px;
   gap: 20px;
   border-radius: 20px;
+  border: 1px solid lime;
 }
 .user-promt input {
-  border: none;
+  border: 1px solid lime;
   padding: 10px;
   width: 250px;
   height: 30px;
@@ -31,7 +31,14 @@ body {
   font-weight: 700;
   font-size: 18px;
   font-family: sans-serif;
+  color: lime;
+  background-color: black;
+  outline: none;
 }
+::placeholder {
+  color: lime;
+}
+
 .qr-code {
   display: none;
   overflow: hidden;
@@ -46,10 +53,12 @@ body {
   cursor: pointer;
   padding: 12px;
   font-weight: 650;
-  border: none;
+  border: 1px solid lime;
+  background-color: black;
+  color: lime;
   border-radius: 10px;
   transition: all 0.34s;
 }
 .qr-btn button:hover {
-  background-color: #d4d4d4;
+  background-color: #141414;
 }
